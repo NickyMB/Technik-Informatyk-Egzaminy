@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	font-family: Tahoma;
+	background-color: crimson;
+}
+h2
+{
+	text-align: center;
+	letter-spacing: 7px;
+	text-transform: capitalize; 
+}
+header#baner
+{
+	color: white;
+	text-align: center;
+	height: 370px;
+}
+div#mecz
+{
+	color: white;
+	text-align: center;
+	width: 200px;
+	margin: 10px;
+	border: 1px solid black;
+	border-radius: 10px;
+	float: left;
+}
+
+#mecz:hover
+{
+	border-color: white;
+}
+#glowny
+{
+	color: black;
+	background-color: whitesmoke;
+	height: 50px;
+	clear: both;
+}
+#lewy
+{
+	color: black;
+	background-color: whitesmoke;
+	width: 70%;
+	height: 230px;
+	float: left;
+	text-align: left;
+}
+#prawy
+{
+	color: black;
+	background-color: whitesmoke;
+	width: 30%;
+	height: 230px;
+	float: left;
+	text-align: right;
+}

@@ -1,0 +1,7 @@
+Zapytanie 1: SELECT `zwierzeta`.`id`, `zwierzeta`.`gatunek`, `zwierzeta`.`wystepowanie` FROM `zwierzeta` INNER JOIN `odzywianie` ON `odzywianie`.`id` = `zwierzeta`.`Odzywianie_id` WHERE `odzywianie`.`rodzaj` LIKE "wszystkozerny";
+
+Zapytanie 2: SELECT `zwierzeta`.`gatunek`, `odzywianie`.`rodzaj` FROM `zwierzeta` INNER JOIN `odzywianie` ON `odzywianie`.`id` = `zwierzeta`.`Odzywianie_id`
+
+Zapytanie 3: SELECT COUNT(*) FROM `zwierzeta` INNER JOIN `odzywianie` ON `odzywianie`.`id` = `zwierzeta`.`Odzywianie_id` WHERE `odzywianie`.`rodzaj` LIKE "drapieznik"
+
+Zapytanie 4: CREATE USER JanKowalski IDENTIFIED BY "J4nKow"

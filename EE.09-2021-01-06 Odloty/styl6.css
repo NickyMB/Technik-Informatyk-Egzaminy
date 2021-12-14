@@ -1,0 +1,66 @@
+body
+{
+    font-family: arial;
+    background-color: rgb(244, 164, 96);
+    color: white;
+}
+p
+{
+    padding: 20px;
+    font-size: 150%;
+    border-radius: 2px;
+    border-style: dotted;
+    border-color: rgb(169, 169, 169);
+}
+p:hover
+{
+    background-color: rgb(169, 169, 169);
+}
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+td, th
+{
+    border-radius: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    padding: 5px;
+}
+#baner1
+{
+    text-align: center;
+    float: left;
+    width: 75%;
+    height: 150px;
+    font-size:200%;
+}
+#baner2
+{
+    float: left;
+    text-align: center;
+    width: 25%;
+    height: 50px;
+}
+#glowny
+{
+    clear: both;
+    background-color: rgb(128, 0, 0);
+    padding: 50px;
+    text-transform: uppercase;
+}
+#stopka1, #stopka3
+{
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding-top: 90px;
+
+}
+#stopka2
+{
+    float: left;
+    text-align: center;
+    width: 60%;
+}

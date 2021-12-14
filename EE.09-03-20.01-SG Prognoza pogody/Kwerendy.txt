@@ -1,0 +1,4 @@
+SELECT * FROM pogoda where miasta_id = 2 order by data_prognozy desc
+select id , temperatura_dzien from pogoda where cisnienie<1000
+SELECT pogoda.data_prognozy , pogoda.opady , miasta.nazwa from pogoda JOIN miasta on pogoda.miasta_id = miasta.id WHERE pogoda.temperatura_dzien>20
+DELETE FROM pogod` WHERE id = 8

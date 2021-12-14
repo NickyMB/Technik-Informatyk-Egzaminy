@@ -1,0 +1,4 @@
+SELECT id, imie, nazwisko, rok_urodzenia, zdjecie FROM osoby limit 30
+SELECT imie, nazwisko rok_urodzenia, zdjecie, nazwa, opis from osoby JOIN hobby ON osoby.Hobby_id = hobby.id WHERE osoby.id=10
+SELECT AVG(rok_urodzenia), MIN(rok_urodzenia), MAX(rok_urodzenia) FROM osoby
+UPDATE osoby SET opis="sport" WHERE Hobby_id=4

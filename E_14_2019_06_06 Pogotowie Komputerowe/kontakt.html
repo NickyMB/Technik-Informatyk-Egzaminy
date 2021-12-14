@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Pogotowie Komputerowe</title>
+    <link rel="stylesheet" href="styl.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="kontener">
+        <div id="baner">
+            <img src="animacja.gif">
+        </div>
+        <div id="menu">
+            <a href="index.html">O nas</a>
+            <a href="kontakt.html">Kontakt</a>
+        </div>
+        <div id="glowny1">
+            <h3>Formularz kontaktowy</h3>
+            <form>
+                <table>
+                    <tr>
+                        <td>Imię:</td><td><input type="text" id="imie" name="imie"></td>
+                    </tr>
+                    <tr>
+                        <td>nazwisko:</td><td> <input type="text" id="nazwisko" name="nazwisko"></td>
+                    </tr>
+                    <tr>
+                        <td>E-mai:</td><td> <input type="text" id="mail" name="mail"></td>
+                    </tr>
+                    <tr>
+                        <td>Usługa:</td>
+                        <td> 
+                            <select name="usluga" id="usluga">
+                                <option >naprawa komputera</option>
+                                <option >odzyskiwanie danych</option>
+                                <option >problemy z oprogramowaniem</option>
+                                <option > konfiguracja sieci LAN</option>
+                                <option >inne</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Wyślij kopię wiadomości<input type="checkbox" name="kopia" id="kopia" checked></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="reset" value="Resetuj" id="resetuj" class="resetuj">
+                            <input type="button" value="Prześlij" onclick="pokaz()" id="przesyl" class="presyl">
+                        </td>
+                    </tr>
+                </table>
+                <p id="wynik"></p>
+                <script type="application/javascript">
+                    function pokaz()
+                    {
+                        var imie = document.getElementById("imie").value
+                        var nazwisko = document.getElementById("nazwisko").value
+                        var mail = document.getElementById("mail").value
+                        var usluga = document.getElementById("usluga").value
+                        var wynik = document.getElementById("wynik")
+                        var kopia = document.getElementById("kopia").checked
+                        if(kopia==true)
+                        {
+                            wynik.innerHTML=imie+" "+nazwisko+"<br>"+mail.toLowerCase()+"<br> Usługa "+usluga
+                        }
+                    }
+                </script>
+            </form>
+        </div>
+        <div id="glowny2"></div>
+        <div id="glowny3"></div>
+        <div id="stopka">
+            autor strony:<b> 1234567890</b>
+        </div>
+    </div>
+</body>
+</html>

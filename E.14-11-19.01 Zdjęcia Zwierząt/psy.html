@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style5.css">
+	<title>Galeria zdjęć</title>
+</head>
+<body>
+	<div id="naglowek">
+		<h1>Zdjęcia psów</h1>
+	</div>
+	<div id="lewy">
+		<h2>Kategorie</h2>
+		<ul>
+			<a href="psy.html"><li>Psy</li></a>
+			<a href="koty.html"><li>Koty</li></a>
+			<li>Gryzonie</li>
+			<li>Jaszczurki</li>
+			<li>Inne zdjęcia</li>
+		</ul>
+		<a href="index.html"><h4>Powrót do strony głownej</h4></a>
+	</div>	
+	<div id="prawy1">
+		<h1>Wybierz zdjęcie</h1>
+		<img src="pies1.jpg" alt="pies1" onclick="clicked('1', 'pies1.jpg')" onmouseover="over('1', 'pies1-szary.jpg')" onmouseout="out('1', 'pies1.jpg')" id="1">
+        <img src="pies2.jpg" alt="pies2" onclick="clicked('2', 'pies2.jpg')" onmouseover="over('2', 'pies2-szary.jpg')" onmouseout="out('2', 'pies2.jpg')" id="2">
+        <img src="pies3.jpg" alt="pies3" onclick="clicked('3', 'pies3.jpg')" onmouseover="over('3', 'pies3-szary.jpg')"onmouseout="out('3', 'pies3.jpg')" id="3">
+	</div>
+	<div id="prawy2">
+		 <p><img id="set" src="pies1.jpg" alt="pies-duży"></p>
+	</div>	
+	<div id="stopka">Galerię zdjęć opracował 00000000000</div>	
+	<script type="text/javascript">
+		function over(id, img) 
+		{			
+			document.getElementById(id).src = img;			
+		}
+
+		function clicked(id, img)
+		{			
+			document.getElementById('set').src = img;
+			over(id,img);
+		}
+
+		function out(id, img)
+		{
+			document.getElementById(id).src = img;
+		}
+	</script>
+</body>
+</html>

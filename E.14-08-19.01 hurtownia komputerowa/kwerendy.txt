@@ -1,0 +1,5 @@
+Zapytanie 1: SELECT nazwa, dostepnosc, cena FROM podzespoly WHERE producenci_id = 5;
+Zapytanie 2: SELECT id, opis FROM podzespoly WHERE dostepnosc = 0 AND producenci_id = 1 OR producenci_id = 2;
+Zapytanie 3: SELECT podzespoly.opis, podzespoly.cena, producenci.nazwa FROM podzespoly, producenci WHERE podzespoly.producenci_id = producenci.id;
+Zapytanie 4: ALTER TABLE producenci ADD priorytet INT;
+

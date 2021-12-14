@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styl.css">
+    <title>Działania arytmetyczne</title>
+</head>
+<body>
+    <div id="baner1">
+        <img src="logo.jpg" alt="matematyka">
+    </div>
+    <div id="baner2">
+        <h1>Pomocnik Matematyczny</h1>
+    </div>
+    <div id="baner3">
+        <a href="dzialania.html">Działania</a>
+    </div>
+    <div id="baner4">
+        <a href="mnozenie.html">Tabliczka mnożenia</a>
+    </div>
+    <div id="lewy">
+        <h3>Proste działania</h3><br>
+        <form>
+            liczba A: <input type="number" id="liczbaA" name="liczbaA"><br>
+            liczba B: <input type="number" id="liczbaB" name="liczbaB"><br>
+            <input type="button" onclick="dodawanie()" id="dodawanieS" value="+">
+            <input type="button" onclick="odejmowanie()" id="odejmowanieS" value="-">
+            <input type="button" onclick="mnozenie()" id="mnozenieS" value="*">
+            <input type="button" onclick="dzielenie()" id="dzielenieS" value="/">
+            <input type="button" onclick="potenga()" id="potengowanieS" value="A^B">
+        </form>
+        <p id="wynik"></p>
+    </div>
+    <div id="prawy">
+        <ol>
+            <li>dodawanie</li>
+            <li>odejmowanie</li>
+            <li>mnożenie</li>
+            <li>dzielenie</li>
+            <li>potęgowanie</li>
+        </ol>
+    </div>
+    <div id="stopka">
+        <p>Autor: 12345678901</p>
+    </div>
+</body>
+<script type="text/javascript">
+    var wynik = document.getElementById('wynik');
+    var liczbaA = document.getElementById('liczbaA');
+    var liczbaB = document.getElementById('liczbaB');
+    function dodawanie()
+    {
+        wynik.innerHTML="Wynik: "+parseInt(liczbaA.value)+parseInt(liczbaB.value);
+    }
+    function odejmowanie()
+    {
+        wynik.innerHTML="Wynik: "+parseInt(liczbaA.value)-parseInt(liczbaB.value);
+    }
+    function mnozenie()
+    {
+        wynik.innerHTML="Wynik: "+parseInt(liczbaA.value)*parseInt(liczbaB.value);
+    }
+    function dzielenie()
+    {
+        wynik.innerHTML="Wynik: "+parseInt(liczbaA.value)/parseInt(liczbaB.value);
+    }
+    function potenga()
+    {
+        wynik.innerHTML="Wynik: "+ Math.pow(parseInt(liczbaA.value),parseInt(liczbaB.value))
+    }
+</script>
+</html>

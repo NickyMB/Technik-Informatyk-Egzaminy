@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	font-family: Verdana;
+	background-color: seagreen;
+}
+h3
+{
+	text-align: center;
+	letter-spacing: 6px;
+	text-transform: capitalize; 
+}
+#baner
+{
+	color: white;
+	text-align: center;
+	height: 330px;
+}
+div#lig
+{
+	color: white;
+	text-align: center;
+	width: 170px;
+	margin: 5px;
+	border: 1px solid black;
+	border-radius: 15px;
+	float: left;
+}
+
+#lig:hover
+{
+	border-color: white;
+}
+#glowny
+{
+	color: white;
+	clear: both;
+}
+#lewy
+{
+	background-color: whitesmoke;
+	width: 30%;
+	height: 150px;
+	float: left;
+	text-align: center;
+}
+#prawy
+{
+	background-color: whitesmoke;
+	width: 70%;
+	height: 150px;
+	float: left;
+}

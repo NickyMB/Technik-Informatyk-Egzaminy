@@ -1,0 +1,47 @@
+body
+{
+	font-family: Tahoma;
+}
+p
+{
+	font-size: 150%;
+}
+img
+{
+	border: 1px solid gray;
+	height: 250px;
+	margin: 5px;
+}
+img:hover
+{
+	height: 300px;
+	border-color: black;
+}
+#baner, #stopka
+{
+	background-color: rgb(72,209,204);
+	color: white;
+	text-align: center;
+	padding: 5px;
+	clear: both;
+}
+#cookies
+{
+	background-color: rgb(139,69,19);
+	color: white;
+	padding: 10px;
+}
+#lewy
+{
+	background-color: rgb(175,238,238);
+	width: 70%;
+	height: 600px;
+	float: left;
+}
+#prawy
+{
+	background-color: rgb(175,238,238);
+	width: 30%;
+	height: 600px;
+	float: left;
+}

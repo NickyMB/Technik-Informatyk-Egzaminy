@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hurtownia</title>
+  <link rel="stylesheet" href="styl4.css">
+  <script>
+    function order() {
+      var number = document.getElementById("numer").value;
+      var weight = document.getElementById("waga").value;
+      var price = 0;
+      if (number == 1) {
+        price = weight * 5;
+      }
+      else if (number == 2) {
+        price = weight * 7;
+      }
+      else if (number == 3) {
+        price = weight * 6;
+      }
+      else {
+        price = 0;
+      }
+
+      document.getElementById("wynik").innerHTML = "Koszt zamówienia wynosi: " + price + " zl";
+
+    }
+  </script>
+</head>
+<body>
+  <div id="logo">
+    <img src="logo.png" alt="hurtownia">
+  </div>
+
+  <div id="menu">
+    <a href="index.html">Strona glowna</a>
+    <a href="zamowienia.html">Zamówienia</a>
+    <a href="blog.html">Blog o kawie</a>
+    <a href="http://gatunki-kawy.pl/" target="_blank">Odwiedź także</a>
+  </div>
+
+  <div id="header">
+    <h1>Hurtownia kawy</h1>
+  </div>
+
+  <div id="main">
+    <h2>Oferta</h2>
+    <ol>
+      <li>Kawa palona Arabica</li>
+      <li>Kawa palona Robusta</li>
+      <li>Kawa bezkofeinowa</li>
+      <li>Kawa zielona</li>
+    </ol>
+  </div>
+
+  <div id="main">
+    Podaj numer kawy: <br />
+    <input id="numer" type="number"> <br />
+    Podaj wagę w dekagramach: <br />
+    <input id="waga" type="number">
+    <button onclick="order()">Zamów</button>
+    <p id="wynik"></p>
+  </div>
+
+  <div id="header">
+    Stronę przygotowal: <b>00000000</b>
+  </div>
+</body>
+</html>

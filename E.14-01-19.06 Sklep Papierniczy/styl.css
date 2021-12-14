@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+#baner
+{
+	background-color: #E8C84E;
+	height: 50px;
+	font-size: 130%;
+	text-align: center;
+}
+#lewy
+{
+	background-color: #FFB544;
+	width: 40%;
+	height: 500px;
+	font-size: 130%;
+	float: left;
+}
+#srodkowy
+{
+	height: 500px;
+	width: 30%;
+	text-align: center;
+	float: left;
+}
+#prawy
+{
+	background-color: #FFB544;
+	height: 500px;
+	width: 30%;
+	font-size: 130%;
+	float: left;
+	text-align: center;
+}
+#stopka
+{
+	background-color: #E8C84E;
+	height: 50px;
+	text-align: right;
+	padding: 10px;
+	clear: both;
+}
+ul, li
+{
+	padding-top: 30px;
+	background-color: #FFAA00;
+}
+h3, img
+{
+	padding-top: 50px;
+}
+form
+{
+	padding-bottom: 500px;
+}

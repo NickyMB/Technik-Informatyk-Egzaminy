@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Usługi kosmetyczne</title>
+        <link rel="stylesheet" href="css/styl.css" />
+    </head>
+    <body>
+        <div id="lewa">
+            <div id="gora1">
+                <h2>W ofercie</h2>
+                <ul>
+                    <li>
+                        <a href="twarz.html">Zabiegi na twarz</a>
+                        <ol>
+                            <li>Piling</li>
+                            <li>Maska</li>
+                            <li>Regulacja brwi</li>
+                        </ol>
+                    </li>
+                    <li>Masaż</li>
+                    <li>Diety</li>
+                </ul>
+                <a href="index.html">Do strony głównej</a>
+            </div>
+            
+            <div id="dol1">
+                <img src="img/obraz1.jpg" alt="Kosmetycza" />
+            </div>
+        </div>
+        <div id="prawa">
+            <div id="gora2">
+                <h2>Salon kosmetyczny</h1>
+            </div>
+            <div id="dol2">
+                <h2>Sprawdź cene swojej wizyty</h2>
+                <div><input type="checkbox" name="a" value="p"> Piling</div>
+                <div><input type="checkbox" name="a" value="m"> Maska</div>
+                <div><input type="checkbox" name="a" value="mt"> Masaż twarzy</div>
+                <div><input type="checkbox" name="a" value="r"> Regulacja brwi</div>
+                <div><button onclick="skraa()">Sprawdź cenę</button></div>
+                <div id="wynik"></div>
+            </div>
+        </div>
+        <footer>
+            <p>Autor: 00000000000</p>
+        </footer>
+
+        <script>
+            function skraa(){
+                var a = document.getElementsByName("a");
+                var cennik = [45, 30, 20, 5];
+                var suma = 0;
+                a.forEach((elm, i) => {
+                    if(elm.checked == true) suma += cennik[i];
+                });
+                document.getElementById("wynik").innerHTML = "Cena zabiegów: " + suma;
+            }
+        </script>
+    </body>
+</html>

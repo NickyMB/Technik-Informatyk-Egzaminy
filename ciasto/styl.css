@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	background-color: #FBEFEF;
+	margin: 0px;
+	padding: 0px;
+}
+#baner
+{
+	width: 100%;
+	height: 150px;
+	background-image: url("ciasto-logo.jpg");
+	background-repeat: no-repeat;
+	background-color: #A52A2A;
+}
+h1, h2
+{
+	color: red;
+}
+h2
+{
+	margin-left: 150px;
+	border-bottom: 3px;
+	color: red;
+	border-bottom-style: dotted;
+}
+ul,li, p
+{
+	font: Arial;
+	line-height: 2;
+	margin: 10px;
+}
+p
+{
+	margin-left: 150px;
+}
+p:nth-child(10)
+{
+	color: blue;
+}
+ul
+{
+	margin-left: 380px;
+	margin-bottom: 50px;
+}
+#zawartosc
+{
+	margin-left: 500px;
+	float: left;
+	width:74%;
+}
+img
+{
+float: left;
+	margin: 20px 30px 30px 30px;
+}
+hr
+{
+	margin-left: 150px;
+	border: 3px solid red;
+}
+#menu
+{
+	width: 240px;
+	height: 60px;
+	background-color: #A52A2A;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	float: left;
+	overflow: hidden;
+
+}
+#menu:hover
+{
+	height: auto;
+}
+#linki
+{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px
+}
+#linki a
+{
+	width: 220px;
+	background-color: lightgray;
+	text-decoration-line: none;
+	color: green;
+	display: block;
+}
+#linki a:hover
+{
+	font-size: 25px;
+	color: blue;
+	border-top: 4px solid green;
+	border-bottom: 4px solid green;
+}

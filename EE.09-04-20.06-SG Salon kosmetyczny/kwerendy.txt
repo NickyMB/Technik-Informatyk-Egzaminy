@@ -1,0 +1,4 @@
+SELECT nazwa, cena FROM uslugi WHERE cena < 300;
+SELECT sum(cena) FROM uslugi WHERE rodzaj = "usługi kosmetyczne"; --(nie ma bazy więc nie wiem co tu jest)
+CREATE USER kosmetycza@localhost identified BY "Kosmet34";
+GRANT SELECT, INSERT ON egzamin1.uslugi TO kosmetycza@localhost;

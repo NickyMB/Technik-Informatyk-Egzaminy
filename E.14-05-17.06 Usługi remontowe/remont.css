@@ -1,0 +1,38 @@
+a
+{
+    color:white;
+}
+#guzik
+{
+    background-color: brown;
+    border: 2px;
+    border-color: brown;
+    color: white;
+    font-weight: bold ;
+    padding: 10px;
+}
+#menu1 ,#menu2 ,#menu3 ,#menu4
+{
+    background-color:rgb(192,112,17);
+    width:25%;
+    text-align: center;
+    font-size: 150%;
+    float: left;
+}
+#glowny
+{
+    height: 400px;
+}
+#baner
+{
+    background-color:rgb(255,213,162);
+    text-align: center;
+    margin:20px;
+}
+#stopka
+{
+    background-color: rgb(191, 112, 17);
+    color: white;
+    text-align: right;
+    font-size: 150%;
+}

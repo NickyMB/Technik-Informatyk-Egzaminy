@@ -1,0 +1,61 @@
+a{
+    color: white;
+}
+img
+{
+    padding: 20px;
+    margin: 15px;
+    border: 2px dotted #1E9880;
+}
+table
+{
+    padding: 20px;
+    border: 1px solid;
+    width: 80%;
+}
+tr:hover
+{   
+    background-color: green;
+    color: white;
+}
+th
+{
+    background-color: #1E9880;
+    border: 1px solid; 
+}
+td
+{
+    border: 1px solid;
+    text-align: right;
+}
+#baner
+{
+    background-color: #08826A;
+    height: 60px;
+    font-family: Verdana;
+    text-align: center;
+    clear: both;
+}
+#lewy
+{
+    background-color: #1E9880;
+    height: 550px;
+    width: 30%;
+    float: left;
+}
+#prawy
+{
+    background-color: #9ac8bf;
+    height: 550px;
+    width: 70%;
+    float: left;
+    text-align:center;
+}
+#stopka
+{
+    background-color: #08826A;
+    font-family: Verdana;
+    color: white;
+    text-align: right;
+    clear: both;
+}

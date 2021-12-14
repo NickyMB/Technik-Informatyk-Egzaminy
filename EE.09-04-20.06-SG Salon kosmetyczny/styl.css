@@ -1,0 +1,55 @@
+body {
+    font-family: Garamond;
+}
+ul {
+    list-style: square;
+}
+img {
+    padding: 5px;
+    margin: 10px;
+}
+img:hover {
+    padding: 4px;
+    border: 1px solid indigo;
+}
+#gora1 {
+    height: 500px;
+    background-color: lavender;
+}
+#dol1 {
+    height: 300px;
+    background-color: lavender;
+}
+
+#gora2 {
+    height: 150px;
+    background-color: indigo;
+    color: white;
+    font-size: 200%;
+    text-align: center;
+}
+#dol2 {
+    height: 650px;
+    background-color: lavender;
+    font-size: 200%;
+    text-align: center;
+}
+#prawa,
+#lewa {
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+#lewa {
+    width: 25%;
+}
+#prawa {
+    width: 75%;
+}
+
+#stopka {
+    clear: both;
+    background-color: indigo;
+    color: white;
+    text-align: right;
+}

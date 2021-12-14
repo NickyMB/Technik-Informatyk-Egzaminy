@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styl2.css">
+    <title>Wskaźnik jakości hasła</title>
+</head>
+<body>
+    <div id="baner">
+        <h1>
+            <a href="index.html">Weryfikacja jakości hasła</a>
+        </h1>
+    </div>
+    <div id="lewy">
+        <h2>
+            Wybierz opcję
+        </h2>
+        <ol>
+            <li><a href="sprawdz.html">Sprawdź hasło</a></li>
+            <li><a href="reguly.html">Reguły tworzenia hasła</a></li>
+        </ol>
+    </div>
+    <div id="prawy">
+        <form>
+            <p>
+                Wpisz hasło: <input type="password" id="haslo" name="haslo">
+                <input type="button" value="Weryfikuj" onclick="sprawdzenie()">
+            </p>
+        </form>
+        <P id="wynik"></P>
+    </div>
+    <div id="stopka">
+        <h3>Wskaźnik jakości hasła</h3>
+        <p>Twórca strony: 1324657890</p>
+    </div>
+    <script type="text/javascript">
+        var szyfr
+        var wynik
+        var haslo
+        var sprawdz
+        function sprawdzenie()
+        {
+            haslo = document.getElementById('haslo')
+            wynik = document.getElementById('wynik')
+            szyfr = haslo.value
+            wynik.innerHTML = " "
+               if(szyfr.length == 0)
+               {
+                    wynik.innerHTML = '<font color="red"> HASŁO JEST PUSTE </font>'
+               }
+               else if(szyfr.length >= 4 && szyfr.length <= 6)
+               {
+                    sprawdzacz(szyfr)
+                    if(sprawdz==1)
+                    {
+                        wynik.innerHTML = '<font color="blue"> HASŁO JEST ŚREDNIE </font>'
+                    }
+                    else
+                    {
+                        wynik.innerHTML = '<font color="yellow"> HASŁO JEST SŁABE </font>'
+                    }
+               }
+               else if(szyfr.length >= 7)
+               {
+                    sprawdzacz(szyfr)
+                    if(sprawdz==1)
+                    {
+                        wynik.innerHTML = '<font color="green"> HASŁO JEST DOBRE </font>'
+                    }
+                    else
+                    {
+                        wynik.innerHTML = '<font color="blue"> HASŁO JEST ŚREDNIE </font>'
+                    }
+                }
+               else
+               {
+                    wynik.innerHTML = '<font color="yellow"> HASŁO JEST SŁABE </font>'
+               }
+        }
+            function sprawdzacz()
+            {
+                for(var i = 0; i <= szyfr.length ; i++)
+                {
+                    var a = parseFloat(szyfr.charAt(i))   
+                    if(Number(a))
+                    {
+                        sprawdz = 1 
+                        i=szyfr.length+1
+                    }
+                    else
+                    {
+                        sprawdz = 0
+                    }
+                }
+            }
+    </script>
+</body>
+</html>

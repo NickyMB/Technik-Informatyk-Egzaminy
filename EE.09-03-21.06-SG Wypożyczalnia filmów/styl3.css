@@ -1,0 +1,59 @@
+body
+{
+    font-family: Verdana;
+}
+h3
+{
+    background-color: #546E7A;
+    color: white;
+    padding: 0px;
+}
+h4
+{
+    text-align: center;
+    padding: 0px;
+    color: black;
+}
+p
+{
+    color: black;
+}
+#baner1
+{
+    background-color: #29434E;
+    color: white;
+    text-align: center;
+    width: 70%;
+    height: 70px;
+    float: left;
+}
+#baner2
+{
+    background-color: #29434E;
+    color: white;
+    text-align: center;
+    width: 30%;
+    height: 70px;
+    float: left;
+}
+#Polecamy, #Fantastyczne
+{
+    background-color: #B0BEC5;
+    color: white;
+    height: 320px;
+    clear: both;
+    overflow: scroll;
+}
+#stopka
+{
+    background-color: #29434E;
+    color: white;
+    clear: both;
+}
+#skrypt1, #skrypt2
+{
+    margin: 5px;
+    width: 226px;
+    height: 280px;
+    float: left;
+}

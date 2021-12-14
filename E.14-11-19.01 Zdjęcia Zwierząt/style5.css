@@ -1,0 +1,62 @@
+body
+{
+	font-family: Verdana;
+	margin: 0px;
+	padding: 0px; 
+}
+a
+{
+	color: white;
+}
+#naglowek
+{
+	background-color: #9692B1;
+	color: white;
+	text-align: center;
+	height: 80px;
+}
+#levy
+{
+	float: left;
+	background-color: #9692B1;
+	color: white;
+	width: 20%;
+	height: 750px;
+}
+#prawy1
+{
+	float: left;
+	background-color: #FFF4CC;
+	width: 80%;
+	height: 300px;
+	text-align: center; 
+}
+#prawy2
+{
+	float: right;
+	background-color: #DBCC93;
+	width: 80%;
+	height: 450px;
+	text-align: center;
+}
+#stopka
+{
+	clear: both;
+	background-color: #9692B1;
+	color: white;
+	text-align: right;
+}
+#prawy1 img
+{
+	width: 15%;
+	margin: 20px;
+}
+#prawy2 img
+{
+	border: 4px solid #9692B1;
+	
+}
+#prawy2 img:hover
+{
+	border: 4px solid grey;	
+}

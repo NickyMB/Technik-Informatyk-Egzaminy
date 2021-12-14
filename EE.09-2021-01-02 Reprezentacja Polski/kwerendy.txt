@@ -1,0 +1,3 @@
+SELECT imie, nazwisko FROM zawodnik WHERE pozycja_id like 4;
+SELECT zespol, punkty, grupa from liga order by punkty desc;
+SELECT pozycja.id, nazwisko, pozycja.nazwa FROM zawodnik JOIN pozycja ON pozycja_id=pozycja.id WHERE zawodnik.id =3  OR zawodnik.id = 5

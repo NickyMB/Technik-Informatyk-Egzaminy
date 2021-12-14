@@ -1,0 +1,37 @@
+body
+{
+    font-family: Arial;
+}
+table , td
+{
+    border: 1px solid rgb(255, 127, 80);
+    text-align: center;
+    margin: 10px;
+}
+a
+{
+    color: white;
+}
+#lewy , #prawy
+{
+    background-color: rgb(255, 127, 80);
+    color: white;
+    width: 50%;
+    height: 410px;
+    float: left;
+}
+#baner , #glowny
+{
+    background-color:rgb(220, 220, 220);
+    padding: 20px;
+    text-align: center;
+    clear: both;
+}
+#foot-left , #foot-right
+{
+    background-color: rgb(255, 127, 80);
+    color: white;
+    width: 50%;
+    height: 100px;
+    float: left;
+}

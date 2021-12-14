@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styl2.css">
+	<title>Formatowanie</title>
+
+	<script type="text/javascript">
+		function red() 
+		{
+			var size = document.getElementById('value').value;
+			var style = document.getElementById('select').value;
+		
+			if (style==="kursywa") 
+			{
+				document.getElementById('result').style = "color:red; font-size:"+size+"%; font-style: italic;" ;
+			}
+			else
+			{
+				document.getElementById('result').style = "color:red; font-size:"+size+"%" ;		
+			}
+			
+		}
+
+		function green() 
+		{
+			var size = document.getElementById('value').value;
+			var style = document.getElementById('select').value;
+
+			
+			if (style==="kursywa") 
+			{
+				document.getElementById('result').style = "color:green; font-size:"+size+"%; font-style: italic;" ;
+			}
+			else
+			{
+				document.getElementById('result').style = "color:green; font-size:"+size+"%" ;	
+			}
+		}
+
+		function blue() 
+		{
+			var size = document.getElementById('value').value;
+			var style = document.getElementById('select').value;
+
+			
+			if (style==="kursywa") 
+			{
+				document.getElementById('result').style = "color:blue; font-size:"+size+"%; font-style: italic;" ;
+			}
+			else
+			{
+				document.getElementById('result').style = "color:blue; font-size:"+size+"%" ;	
+			}
+		}
+	</script>
+
+</head>
+<body>
+	<div id="baner">
+		<h1>Formatowanie dokumentów HTML</h1>
+	</div>
+		<div id="gorny1">
+			<h2>Przykłady listy - hobby</h2>
+			<ul>
+				<li>muzyka</li>
+				<li>turystyka
+					<ol>
+						<li>góry</li>
+						<li>jeziora</li>
+						<li>na rowerze</li>
+					</ol>
+				</li>
+				<li>książki</li>
+			</ul>
+		</div>
+	<div id="gorny2">
+		<h2>Przykład tabeli - rozkład dnia</h2>
+			<table>
+				<tr> 
+					<th><b>Pora dnia</b></th>
+					<th><b>obowiązki</b></th>
+				</tr>
+				<tr> 
+					<td>rano</td>
+					<td>nauka</td>
+				</tr>
+				<tr> 
+					<td>południe</td>
+					<td>zajęcia dodatkowe</td>
+				</tr>
+				<tr> 
+					<td>popołudnie</td>
+					<td rowspan="2">moje hobby</td>
+				</tr>
+				<tr>
+					<td>wieczór</td>
+				</tr>
+			</table>
+	</div>
+		<div id="gorny3">
+			<img src="napisy.png" alt="technologia web">
+		</div>
+		<div id="glowny">
+		<p>Podaj rozmiar tekstu w procentach: <input type="number" id="value">%</p>
+		<p>
+			<select id="select">
+				<option>prosty</option>
+				<option>kursywa</option>
+			</select>
+		
+		</p>
+		<p>Jakim kolorem sformatować tekst? Wybierz przycisk</p>
+		<input type="submit" id="red" value="" style="background-color:red;" onclick="red()">
+		<input type="submit" id="green" value="" style="background-color:green;" onclick="green()">
+		<input type="submit" id="blue" value="" style="background-color:blue;" onclick="blue()">
+		<p id="result">To jest przykład paragrafu, który może być dowolnie formatowany przez JavaScript</p>
+	</div>
+	<div id="stopka">
+		<p>Formatowaniem tekstu zajmował się: <i>00000000000</i> </p>
+		<a href="formatowanie.pl" target="_blank">Odwiedź także</a>
+	</div>
+</body>
+</html>

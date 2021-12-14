@@ -1,0 +1,60 @@
+body
+{
+    font-family: Georgia;
+    background-color: #FFFAFA;
+}
+form
+{
+    padding:80px;
+}
+table
+{
+    color: white;
+    text-align:center;
+    width: 80%;
+    border: 1px dotted black;
+}
+#logo
+{
+    background-color: #FF7F50;
+    width: 25%;
+    height: 100px;
+    float: left;
+}
+#baner
+{
+    background-color: #FF7F50;
+    width: 75%;
+    height: 100px;
+    text-align:center;
+    font-size: 130%;
+    float:left;
+}
+#glowny
+{
+    background-color: #FF7F50;
+    padding: 70px;
+}
+#lewy
+{
+    width:40%;
+    height: 400px;
+    float: left;
+}
+#prawy
+{
+    width:60%;
+    height: 400px;
+    float: right;
+    text-align:right;
+}
+#stopka
+{
+    background-color: #FF7F50;
+    padding: 20px;
+}
+tr:hover
+{
+    background-color: #D3D3D3;
+    color: black;
+}
