@@ -1,0 +1,53 @@
+body 
+{
+    font-family: Verdana, sans-serif;
+    color: #2f2f2f;
+    margin: 0;
+}
+h5 
+{
+    color: #808080;
+    border: 1px solid #808080;
+    margin: 7px;
+    padding: 10px;
+    font-size: 80%;
+}
+input 
+{
+    color: grey;
+}
+#baner1 
+{
+    background-color: #dcdcdc;
+    width: 55%;
+    height: 80px;
+    text-align: center;
+    float: left
+}
+#baner2, #baner3, #baner4 
+{
+    background-color: #dcdcdc;
+    width: 15%;
+    height: 80px;
+    float: left;
+}
+#lewy 
+{
+    background-color: #808080;
+    width: 30%;
+    height: 450px;
+    float: left
+}
+#prawy 
+{
+    background-color: #808080;
+    width: 70%;
+    height: 450px;
+    float: left
+}
+#stopka 
+{
+    background-color: #dcdcdc;
+    text-align: center;
+    clear: both;
+}

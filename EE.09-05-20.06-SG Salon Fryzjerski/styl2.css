@@ -1,0 +1,66 @@
+body 
+{
+    font-family: Helvetica;
+}
+h2 
+{
+    font-size: 250%;
+}
+img 
+{
+    padding: 4px;
+}
+img:hover 
+{
+    padding: 3px;
+    border: 1px solid steelblue;
+
+}
+#lewy 
+{
+    text-align: center;
+    height: 400px;
+    background-color: snow;
+    float: left;
+    width: 70%;
+}
+#lewy2 
+{
+    height: 400px;
+    background: snow;
+    font-size: 150%;
+    float: left;
+    width: 70%;
+}
+#prawy
+{
+    height: 150px;
+    background-color: steelblue;
+    text-align: center;
+    color: white;
+    float: right;
+    width: 30%;
+}
+#prawy2 
+{
+    height: 350px;
+    background-color: steelblue;
+    color: white;
+    float: right;
+    width: 30%;
+}
+#prawy3 
+{
+    height: 300px;
+    background-color: snow;
+    color: white;
+    text-align: center;
+    float: right;
+    width: 30%;
+}
+#stopka 
+{
+    background-color: steelblue;
+    color: white;
+    clear: both;
+}
