@@ -1,0 +1,4 @@
+1. SELECT id, tytul, tresc from ogloszenie WHERE kategoria = 1
+2. SELECT telefon FROM uzytkownik inner JOIN ogloszenie On uzytkownik.id = ogloszenie.uzytkownik_id WHERE ogloszenie.id = 1
+3. CREATE user 'moderator'@'localhost' IDENTIFIED BY 'qwerty';
+4. Grant SELECT, DROP on ogloszenia.ogloszenie to 'moderator'@'localhost'
