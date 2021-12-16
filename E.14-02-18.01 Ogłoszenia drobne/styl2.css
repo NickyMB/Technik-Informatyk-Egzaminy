@@ -1,0 +1,49 @@
+body, html 
+{
+	margin: 0 auto;
+	padding: 0; 
+}
+table, td
+{
+	border: 1px dotted green; 
+	width: 400px;
+	margin: 15px;
+	text-align: center;
+}
+li
+{
+	list-style-type: circle; 
+}
+img
+{
+	padding: 25px;
+}
+#naglowek
+{
+	background-color: #5A9089;
+	color: white;
+	font-family: Verdana;
+	text-align: center;
+	height: 100px;
+}
+#lewy
+{
+	background-color: #BAD2CF;
+	width: 55%;
+	height: 600px;
+	float: left;
+}
+#prawy
+{
+	background-color: #88AFAA;
+	width: 45%;
+	height: 600px;
+	float: left;
+}
+#stopka
+{
+	clear: left;
+	background-color: #5A9089;
+	color: white;
+	text-align: right;
+}
