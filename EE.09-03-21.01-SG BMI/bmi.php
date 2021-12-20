@@ -41,7 +41,7 @@
             <input type="submit" value="Oblicz i zapamięraj wynik">
         </form>
         <?php
-            if(isset($_POST['waga']) && isset($_POST['wzrost']))
+            if(!empty($_POST['waga']) && !empty($_POST['wzrost']))
             {
                 $waga= $_POST['waga'];
                 $wzrost= $_POST['wzrost'];
