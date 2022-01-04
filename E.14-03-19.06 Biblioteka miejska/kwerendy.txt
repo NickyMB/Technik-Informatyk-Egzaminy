@@ -1,0 +1,4 @@
+SELECT imie , nazwisko FROM autorzy
+INSERT INTO czytelnicy( imie, nazwisko, kod) VALUES ('Anna','Michalak','ANMI05 ')
+SELECT tytul FROM ksiazki JOIN kategorie ON ksiazki.id_kategoria = kategorie.id WHERE kategorie.nazwa LIKE "epika"
+SELECT tytul FROM ksiazki JOIN wypozyczenia ON ksiazki.id = wypozyczenia.id_ksiazka WHERE wypozyczenia.id_czytelnik = 3
