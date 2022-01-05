@@ -1,0 +1,54 @@
+ul
+{
+    margin-left:100px;
+}
+img
+{
+    margin:100px;
+}
+form
+{
+    margin-left:150px;
+}
+h4
+{
+    margin-left:100px;
+}
+h3, h2
+{
+    text-align:center;
+}
+.baner
+{
+    background-color: #18FFA4;
+    height: 50px;
+    clear: both;
+}
+.lewy
+{
+    background-color: #AEFFCF;
+    height: 550px;
+    width: 30%;
+    float: left;
+}
+.srodek
+{
+    background-color: #DDFFCD;
+    height: 550px;
+    width: 40%;
+    float: left;
+}
+.prawy
+{
+    background-color: #AEFFCF;
+    height: 550px;
+    width: 30%;
+    float: left;
+}
+.stopka
+{
+    background-color:#18FFA4;
+    height:50px;
+    text-align: center;
+    clear: both;
+}
