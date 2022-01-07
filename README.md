@@ -82,8 +82,8 @@ Arkusze biorę z tej strony: https://www.praktycznyegzamin.pl/inf03ee09e14/prakt
 	* Pogotowie Komputerowe [E.14-06-19.06](/E.14/E.14-06-19.06/)
 ### 2020
 * Styczeń
-	* Sklep komputerowy [E.14-01-20.01](/E.14/E.14-01-20.01/)
-	* Żelki [E.14-02-20.01](/E.14/E.14-02-20.01/)
+	* Sklep komputerowy [E.14-01-20.01](/E.14/E.14-01-20.01-SG/)
+	* Żelki [E.14-02-20.01](/E.14/E.14-02-20.01-SG/)
 	* Cukierki [E.14-03-20.01](/E.14/E.14-03-20.01-SG/)
 	* Gromady [E.14-04-20.01](/E.14/E.14-04-20.01/)
 ### 2021
