@@ -84,7 +84,7 @@ Arkusze biorę z tej strony: https://www.praktycznyegzamin.pl/inf03ee09e14/prakt
 * Styczeń
 	* Sklep komputerowy [E.14-01-20.01](/E.14/E.14-01-20.01/)
 	* Żelki [E.14-02-20.01](/E.14/E.14-02-20.01/)
-	* Cukierki [E.14-03-20.01](/E.14/E.14-03-20.01/)
+	* Cukierki [E.14-03-20.01](/E.14/E.14-03-20.01-SG/)
 	* Gromady [E.14-04-20.01](/E.14/E.14-04-20.01/)
 ### 2021
 * Styczeń
