@@ -47,7 +47,7 @@ Arkusze biorę z tej [strony](https://www.praktycznyegzamin.pl/inf03ee09e14/prak
 	* Usługi remontowe [E.14-05-17.06](/E.14/E.14-05-17.06/)
 ### 2018
 * Styczeń
-	*  Portal ogłoszeniowy [E.14-01-18.01](/E.14/E.14-01-18.01/) [.zip](/ZIPY/E.14-01-18.01/)
+	*  Portal ogłoszeniowy [E.14-01-18.01](/E.14/E.14-01-18.01/) [.zip](/ZIPY/E.14-01-18.01.zip/)
 	*  Ogłoszenia drobne [E.14-02-18.01](/E.14/E.14-02-18.01/)
 	*  Portal Ogłoszeniowy [E.14-05-18.01](/E.14/E.14-05-18.01/)
 * Czerwiec 
