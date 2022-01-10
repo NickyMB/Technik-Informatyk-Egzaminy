@@ -5,7 +5,7 @@ Arkusze biorę z tej [strony](https://www.praktycznyegzamin.pl/inf03ee09e14/prak
 ## Egzaminy EE.09
 ### 2019
 * Czerwiec
-	* Portal dla Wędkarzy [EE.09-01-19.16](/EE.09/EE.09-01-19.06/)  [Pobierz](/ZIPY/EE.09-01-19.06.zip/)
+	* Portal dla Wędkarzy [EE.09-01-19.16](/EE.09/EE.09-01-19.06/)  [Pobierz](/ZIPY/EE.09-01-19.06.zip/) <a id="raw-url" href="https://github.com/NickyMB/Technik-Informatyk-Egzaminy/tree/main/EE.09/EE.09-01-19.06">Download FILE</a>
 	* Stacja Paliw [EE.09-02-19.06](EE.09/EE.09-02-19.06/) [Pobierz](/ZIPY/EE.09-02-19.06.zip/)
 	* Zawody Wędkarskie [EE.09-03-19.06](EE.09/EE.09-03-19.06/) [Pobierz](/ZIPY/EE.09-03-19.06.zip/)
 	* Pomocnik Matematyczny [EE.09-04-19.06](EE.09/EE.09-04-19.06/) [Pobierz](/ZIPY/EE.09-04-19.06.zip/)
