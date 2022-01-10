@@ -36,8 +36,6 @@ Arkusze biorę z tej [strony](https://www.praktycznyegzamin.pl/inf03ee09e14/prak
 	* Warzywniak [EE.09-02-21.06-SG](/EE.09/EE.09-02-21.06-SG/)
 	* Wypożyczalnia filmów [EE.09-03-21.06-SG](/EE.09/EE.09-03-21.06-SG/)
 	* Portal społecznościowy - admin [EE.09-04-21.06-SG](/EE.09/EE.09-04-21.06-SG/)
-	<!-- *  [EE.09-05-21.06-SG](/EE.09/EE.09-05-21.06-SG/)-->
-	<!-- *  [EE.09-06-21.06-SG](/EE.09/EE.09-06-21.06-SG/)-->
 ## Egzaminy E.14
 ### 2016
 * Sierpień
