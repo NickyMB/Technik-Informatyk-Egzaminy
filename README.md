@@ -16,16 +16,13 @@ Arkusze biorę z tej [strony](https://www.praktycznyegzamin.pl/inf03ee09e14/prak
 	* Klub wędkowania [EE.09-01-20.01-SG](/EE.09/EE.09-01-20.01-SG/)
 	* Stacja paliw [EE.09-02-20.01-SG](/EE.09/EE.09-02-20.01-SG/)
 	* Prognoza pogody [EE.09-03-20.01-SG](/EE.09/EE.09-03-20.01-SG/)
-	<!-- * [EE.09-04-20.01-SG](/EE.09/EE.09-04-20.01-SG/) -->
-	<!-- * [EE.09-05-20.01-SG](/EE.09/EE.09-05-20.01-SG/) -->
-	<!-- * [EE.09-06-20.01-SG](/EE.09/EE.09-06-20.01-SG/) -->
 * Czerwiec
 	* Organizer [EE.09-01-20.06-SG](/EE.09/EE.09-01-20.06-SG/)
 	* Bióro Pordóży [EE.09-02-20.06-SG](/EE.09/EE.09-02-20.06-SG/)
 	* Organizer [EE.09-03-20.06-SG](/EE.09/EE.09-03-20.06-SG/)
 	* Salon kosmetyczny [EE.09-04-20.06-SG](/EE.09/EE.09-04-20.06-SG/)
 	* Salon Fryzjerski [EE.09-05-20.06-SG](/EE.09/EE.09-05-20.06-SG/)
-	<!--* [EE.09-05-20.06-SG](/EE.09)-->
+	<!--* [EE.09-06-20.06-SG](/EE.09)-->
 #### 2021
 * Styczeń
 	* Rozgrywki piłkarskie [EE.09-01-21.01-SG](/EE.09/EE.09-01-21.01-SG/)
@@ -35,10 +32,10 @@ Arkusze biorę z tej [strony](https://www.praktycznyegzamin.pl/inf03ee09e14/prak
 	* Przyloty [EE.09-05-21.01-SG](/EE.09/EE.09-05-21.01-SG/)
 	* Odloty [EE.09-06-21.01-SG](/EE.09/EE.09-06-21.01-SG/)
 * Czerwiec
-	<!-- * [EE.09-01-21.06-SG](/EE.09/EE.09-01-21.06-SG/) -->
+	* Portal społecznościowy [EE.09-01-21.06-SG](/EE.09/EE.09-01-21.06-SG/)
 	* Warzywniak [EE.09-02-21.06-SG](/EE.09/EE.09-02-21.06-SG/)
 	* Wypożyczalnia filmów [EE.09-03-21.06-SG](/EE.09/EE.09-03-21.06-SG/)
-	* Portal społecznościowy [EE.09-04-21.06-SG](/EE.09/EE.09-04-21.06-SG/)
+	* Portal społecznościowy - admin [EE.09-04-21.06-SG](/EE.09/EE.09-04-21.06-SG/)
 	<!-- *  [EE.09-05-21.06-SG](/EE.09/EE.09-05-21.06-SG/)-->
 	<!-- *  [EE.09-06-21.06-SG](/EE.09/EE.09-06-21.06-SG/)-->
 ## Egzaminy E.14
