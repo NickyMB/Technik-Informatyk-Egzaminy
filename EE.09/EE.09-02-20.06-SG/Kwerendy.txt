@@ -1,4 +1,0 @@
-SELECT id , dataWyjazdu , cel , cena FROM wycieczki WHERE dostepna !=0
-select nazwaPliku , podpis FROM zdjecia ORDER BY podpis asc
-select zdjecia.nazwaPliku , wycieczki.cel FROM wycieczki JOIN zdjecia on wycieczki.zdjecia_id = zdjecia.id WHERE wycieczki.cena > 1000
-ALTER TABLE egzamin3.wycieczki ADD dataPrzyjazdu DATE AFTER dataWyjazdu

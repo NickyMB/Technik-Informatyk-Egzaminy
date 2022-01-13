@@ -1,0 +1,54 @@
+body
+{
+    font-family: Garamond;
+}
+h5
+{
+    background-color:#00600f;
+    color:white;
+    font-size: 200%;
+    text-align: center;
+    margin: 0;
+}
+h2
+{
+    text-align: right;
+}
+.gen
+{
+    margin: 10px;
+    border: 1px solid #00600f;
+    width: 300px;
+    float: left;
+    height: 350px;
+}
+.banerL
+{
+    background-color: #00600f;
+    color: white;
+    text-align: center;
+    width: 75%;
+    height: 90px;
+    float: left;
+}
+.banerP
+{
+    background-color: #00600f;
+    color: white;
+
+    width: 25%;
+    height: 90px;
+    float: left;
+}
+.glowny
+{
+    background-color:  #C8E6C9;
+    height: 600px;
+    clear: both;
+    overflow-y: scroll;
+}
+.stopka
+{
+    background-color: #00600f;
+    color: white;
+}

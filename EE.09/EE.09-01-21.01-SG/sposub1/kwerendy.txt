@@ -1,0 +1,4 @@
+SELECT zespol1, zespol2, wynik, data_rozgrywki from rozgrywka WHERE zespol1 LIKE "EVG";
+SELECT imie, nazwisko FROM zawodnik WHERE pozycja_id like 3;
+SELECT pozycja.id, nazwisko, pozycja.nazwa FROM zawodnik JOIN pozycja ON pozycja_id=zawodnik.id WHERE zawodnik.id LIKE 1 OR zawodnik.id LIKE 2 or zawodnik.id LIKE 3;
+DROP TABLE liga;

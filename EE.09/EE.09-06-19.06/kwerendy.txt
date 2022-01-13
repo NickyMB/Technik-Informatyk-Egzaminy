@@ -1,4 +1,0 @@
-INSERT INTO zgloszenia(id, ratownicy_id, dyspozytorzy_id, adres,pilne,czas_zgloszenia) VALUES (null,1,4,'warszawa, Staszica 34/5 ',1,CURRENT_TIME())
-select adres, dyspozytorzy_id from zgloszenia where ratownicy_id = 3
-CREATE USER 'localhost'@'anna' iDENTIFIED BY 'Anna4!'
-GRANT INSERT , UPDATE , SELECT on ratownictwo.zgloszenia to 'localhost'@'anna'

@@ -1,0 +1,56 @@
+body
+{
+    font-family: Georgia;
+}
+img
+{
+    padding:20px;
+    border-radius: 100%;
+}
+h2
+{
+    text-align: center;
+    background-color:#00897B;
+}
+a
+{
+    color:white;
+}
+.baner
+{
+    background-color: #005B4F;
+    color: white;
+    text-align: center;
+    font-size:50%;
+    height: 20%;
+    clear: both;
+}
+.glowny
+{
+    background-color: #E1E2E1;
+    height: 400px;
+    padding: 20px;
+    overflow:scroll;
+}
+.Zdjecie
+{
+    width:20%;
+    float: left;
+}
+.opis
+{
+    float:left;
+}
+.linia 
+{
+    clear: both;
+}
+.stopka1 , .stopka2
+{
+    background-color:#005B4F;
+    color: white;
+    text-align: center;
+    width:50%;
+    height: 20%;
+    float: left;
+}

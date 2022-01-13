@@ -1,9 +1,0 @@
-SELECT imie, nazwisko,opis, zdjecie FROM osoby WHERE Hobby_id = 1 || Hobby_id = 2 || Hobby_id = 6
-SELECT osoby.id, osoby.nazwisko, hobby.nazwa FROM osoby JOIN hobby ON osoby.Hobby_id = hobby.id WHERE rok_urodzenia > 2000
-SELECT id, zdjecie FROM osoby WHERE imie LIKE "Monika" limit 5
-CREATE TABLE wpisy 
-(
- id INT UNSIGNED NOT NULL PRIMARY KEY, 
- wpis TEXT , 
- użytkownik_id INT UNSIGNED NOT NULL 
-) 
