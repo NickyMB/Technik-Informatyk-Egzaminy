@@ -1,0 +1,4 @@
+SELECT id, nazwa, opis, zdjecie FROM produkty WHERE id=18 || id=22 || id=23|| id=25
+SELECT id, nazwa, zdjecie, opis FROM produkty WHERE Rodzaje_id=12
+SELECT produkty.nazwa, rodzaje.nazwa FROM produkty JOIN rodzaje ON produkty.Rodzaje_id=rodzaje.id WHERE opis LIKE "%Leia%"
+DELETE FROM produkty WHERE id=15

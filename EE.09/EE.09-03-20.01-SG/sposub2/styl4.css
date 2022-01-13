@@ -1,0 +1,62 @@
+body
+{
+    font-family: garamond;
+}
+table
+{
+    border:2px;
+    border-style: dotted;
+    border-color: green;
+    width: 100%;
+    border-collapse: collapse;
+}
+th
+{
+    border:2px;
+    border-style: dotted;
+    border-color: green;
+    background-color:green;
+    color:yellow;
+}
+td
+{
+    border:2px;
+    border-style: dotted;
+    border-color: green;
+}
+#baner-lewy , #baner-prawy
+{
+    background-color: rgb(95, 158, 160);
+    color: yellow;
+    width: 20%;
+    height: 90px;
+    text-align: center;
+    float: left;
+}
+#baner-srodek
+{
+    background-color: rgb(95, 158, 160);
+    color: yellow;
+    width: 60%;
+    height: 90px;
+    text-align: center;
+    float: left;
+}
+#lewy , #prawy
+{
+    background-color: rgb(175, 238, 238);
+    width: 50%;
+    height: 250px;
+    float:left;
+}
+#glowny
+{
+    background-color:rgb(95, 158, 160);
+    padding: 30px;
+    clear: both;
+}
+#stopka
+{
+    background-color:rgb(175, 238, 238);
+    padding: 10px;
+}

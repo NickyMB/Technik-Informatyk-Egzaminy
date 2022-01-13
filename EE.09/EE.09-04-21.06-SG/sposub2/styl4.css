@@ -1,0 +1,30 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h4
+{
+    margin: 0px;
+}
+#guzik
+{
+    background-color:#AF4448 ;
+    color: black;
+    margin: 5px;
+    padding: 10px;
+}
+#baner, #stopka
+{
+    background-color: #AF4448;
+    color: white;
+    text-align: center;
+    height: 20px;
+    clear: both;
+}
+#lewy, #prawy
+{
+    background-color: #FFA4A2;
+    height: 650px;
+    width: 50%;
+    float: left;
+}

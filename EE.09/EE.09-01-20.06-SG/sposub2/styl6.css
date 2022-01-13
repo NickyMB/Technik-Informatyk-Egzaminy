@@ -1,0 +1,46 @@
+body
+{
+    font-family: Georgia;
+}
+h6
+{
+    text-align: right;
+}
+form
+{
+    padding: 30px;
+}
+#baner1 , #baner2
+{
+    background-color: #3CB371;
+    color: white;
+    height: 100px;
+    width: 40%;
+    float: left;
+}
+#baner3
+{
+    background-color: #3CB371;
+    height: 100px;
+    width: 20%;
+    float: left;
+}
+#glowny
+{
+    clear: both;
+}
+#dzien
+{
+    background-color: #FFDAB9;
+    height: 90px;
+    width: 170px;
+    margin: 5px;
+    border: 1px solid #3CB371;
+    float: left;
+}
+#stopka
+{
+    background-color: #3CB371;
+    color: white;
+    clear: both;
+}
