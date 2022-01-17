@@ -36,6 +36,9 @@ Arkusze biorę z tej [strony](https://www.praktycznyegzamin.pl/inf03ee09e14/prak
 	* Warzywniak [EE.09-02-21.06-SG](/EE.09/EE.09-02-21.06-SG/) [.ZIP](/EE.09/EE.09-02-21.06-SG/EE.09-02-21.06-SG.zip/)
 	* Wypożyczalnia filmów [EE.09-03-21.06-SG](/EE.09/EE.09-03-21.06-SG/) [.ZIP](/EE.09/EE.09-03-21.06-SG/EE.09-03-21.06-SG.zip/)
 	* Portal społecznościowy - admin [EE.09-04-21.06-SG](/EE.09/EE.09-04-21.06-SG/) [.ZIP](/EE.09/EE.09-04-21.06-SG/EE.09-04-21.06-SG.zip/)
+#### 2022
+* Styczeń
+	* Karta wędkarska [EE.09-01-22.01-SG](/EE.09/EE.09-01-22.01-SG/) [.ZIP](/EE.09/EE.09-01-22.01-SG/EE.09-01-22.01-SG.zip/)
 ## Egzaminy E.14
 ### 2016
 * Sierpień
