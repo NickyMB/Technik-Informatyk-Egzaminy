@@ -1,0 +1,4 @@
+SELECT * FROM pogoda ORDER BY pogoda.data_prognozy ASC
+SELECT id, data_prognozy FROM pogoda WHERE opady>30
+SELECT data_prognozy,temperatura_noc, miasta.nazwa FROM pogoda JOIN miasta ON pogoda.miasta_id = miasta.id WHERE temperatura_noc<6
+ALTER TABLE miasta ADD województwo TEXT 

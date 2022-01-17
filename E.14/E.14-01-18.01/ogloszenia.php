@@ -40,17 +40,19 @@
 		<div id="prawy">
 			<h2>Ogłoszenia kategorii książki</h2>
 			<?php 
-				$polonczenie = mysqli_connect('localhost','root','','ogloszenia');
-				$zapytanie1 = mysqli_query($polonczenie,"SELECT id, tytul, tresc from ogloszenie WHERE kategoria = 1");
-				$zapytanie2= mysqli_query($polonczenie,"SELECT telefon FROM uzytkownik inner JOIN ogloszenie On uzytkownik.id = ogloszenie.uzytkownik_id ");
-				while ($r1 = mysqli_fetch_array($zapytanie1)) 
+				$conn = mysqli_connect('localhost','root','','ogloszenia');
+				$qr1="SELECT id, tytul, tresc from ogloszenie WHERE kategoria = 1";
+				$qr2="SELECT telefon FROM uzytkownik inner JOIN ogloszenie On uzytkownik.id = ogloszenie.uzytkownik_id ";
+				$result1 = $conn->query($qr1);
+				$result2 = $conn->query($qr2);
+				while ($r1 = $result1->fetch_array()) 
 				{
-					$r2 = mysqli_fetch_array($zapytanie2);
+					$r2 = $result2->fetch_array();
 					echo "<h3>".$r1[0]." ".$r1[1]."</h3>";
 					echo "<p>".$r1[2]."</p>";
 					echo "<p>"."Telefon kontaktowy: ".$r2[0];
 				}
-				mysqli_close($polonczenie);
+				mysqli_close($conn);
 			 ?>
 		</div>
 		<div id="stopka">

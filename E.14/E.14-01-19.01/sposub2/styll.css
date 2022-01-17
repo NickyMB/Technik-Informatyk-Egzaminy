@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+head,body
+{
+	font-family: Helvetica;
+}
+#lewy
+{
+	background-color: navy;
+	color: white;
+	width: 25%;
+	height: 700px;
+	float: left;
+}
+#prawy1
+{
+	background-color: royalblue;
+	width: 75%;
+	height: 100px;
+	text-align: center;
+	float: left;
+}
+#prawy2
+{
+	background-color: steelblue;
+	width: 75%;
+	height: 300px;
+	float: left;
+}
+#prawy3
+{
+	background-color: royalblue;
+	width: 75%;
+	height: 300px;
+	text-align: center;
+	float: left;
+}
+#stopka
+{
+	background-color: steelblue;
+	text-align: center;
+	padding: 20px;
+	clear: both;
+}
+h1
+{
+	letter-spacing: 5px;
+}
+form
+{
+	margin: 30px;
+	line-height: 3;
+}
+form:hover
+{
+	background-color: deepskyblue;
+}

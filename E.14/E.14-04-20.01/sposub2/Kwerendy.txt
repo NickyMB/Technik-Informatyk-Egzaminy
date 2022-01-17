@@ -1,0 +1,4 @@
+SELECT gatunek , obraz from zwierzeta where gromady_id = 4
+select id, Gromady_id, gatunek, wystepowanie from zwierzeta where Gromady_id = 5 || Gromady_id = 4
+select zwierzeta.gatunek , odzywianie.id , odzywianie.rodzaj from zwierzeta join odzywianie on zwierzeta.odzywianie_id = odzywianie.id
+alter TABLE odzywianie drop COLUMN informacja

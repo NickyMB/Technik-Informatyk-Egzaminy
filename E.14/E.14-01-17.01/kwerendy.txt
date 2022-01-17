@@ -1,3 +1,0 @@
-zapytanie1: SELECT id , marka , model FROM samochody
-zapytanie2: SELECT samochody_id , klient from zamowienia
-zapytanie3: SELECT * from samochody WHERE marka = "fiat"

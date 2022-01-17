@@ -1,9 +1,0 @@
-INSERT INTO filmy SET gatunki_id=5,tytul="Suburbicon",rok=2017,ocena=5
-SELECT tytul, nazwa FROM filmy JOIN gatunki on (filmy.gatunki_id = gatunki.id) where filmy.ocena = 6 
-SELECT tytul, rok from filmy JOIN gatunki on (filmy.gatunki_id = gatunki.id) where (gatunki.nazwa like "dramat" AND ocena = 5)
-CREATE TABLE aktorzy
-(
-    id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY NOT null,
-    imie VARCHAR(30),
-    nazwisko VARCHAR(30)
-)

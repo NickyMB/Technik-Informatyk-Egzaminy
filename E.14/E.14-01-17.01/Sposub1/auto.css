@@ -1,0 +1,44 @@
+a:visited
+{
+    color: green;
+}
+a:link
+{
+    color: orange;
+}
+li
+{
+	padding: 2px;
+	margin-left: 10px;
+}
+#baner
+{
+background-color: #45517D;
+color: white;
+font-size: 120%;
+text-align: right;
+height: 60px;
+width: 100%;
+}
+#lewy
+{
+background-color: #61B2EC;
+width: 40%;
+height: 500px;
+float: left;
+}
+#prawy
+{
+background-color: #8EC9F2;
+width: 60%;
+height: 500px;
+float: left;
+}
+#stopka
+{ 
+    display: block;
+    background-color: #45517D;
+    color:white;
+    font-size:150%;
+    text-align: center;
+}
