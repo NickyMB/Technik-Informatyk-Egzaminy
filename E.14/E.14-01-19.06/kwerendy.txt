@@ -1,3 +1,0 @@
-SELECT nazwa FROM `towary` WHERE promocja = 1
-SELECT cena FROM towary WHERE nazwa="cienkopis"
-SELECT COUNT(dostawcy.nazwa)as ilosc ,dostawcy.nazwa FROM dostawcy JOIN towary on (towary.idDostawcy=dostawcy.id) GROUP by dostawcy.id

@@ -1,0 +1,44 @@
+body
+{
+	font-family: Garamond;
+	margin: 0px;
+}#menu
+{
+	background-color: #790DB5;
+	color: orange;
+	height: 200px;
+	width: 25%;
+	text-align: center;
+	float: left;
+}
+#lewy, #prawy
+{
+	background-color: #FFE6A3;
+	height: 500px;
+	width: 50%;
+	float: left;
+}
+#stopka
+{
+	clear: both;
+	background-color: #790DB5;
+	color: orange;
+	text-align: center;
+	padding: 50px;
+}
+form
+{
+	padding-top: 60px;
+}
+p
+{
+	font-size: 150%;
+}
+a
+{
+	color: yellow;
+}
+a:visited
+{
+	color: orange;
+}

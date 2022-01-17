@@ -1,0 +1,4 @@
+Zapytanie 1: SELECT id, imie, nazwisko, email FROM `uzytkownik` WHERE `uzytkownik`.`id` < 4
+Zapytanie 2: SELECT `ogloszenie`.`tytul` FROM `ogloszenie` WHERE `ogloszenie`.`uzytkownik_id` = 1
+Zapytanie 3: CREATE USER 'admin'@'localhost' IDENTIFIED BY 'zaq1@'
+Zapytanie 4: GRANT SELECT, DROP, UPDATE on ogloszenia.uzytkownik TO 'admin'@'localhost'

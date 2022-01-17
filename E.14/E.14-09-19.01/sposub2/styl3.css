@@ -1,0 +1,44 @@
+body
+{
+	font-family: Garamond;
+}
+ol
+{
+ border: 2px solid rgb(205,92,92);
+ font-size: 150%;
+}
+#baner
+{
+	background-color: RosyBrown;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+#form
+{
+	background-color: DarkSalmon;
+	text-align: center;
+	padding: 40px;
+}
+#glownyL, #glownyP
+{
+	background-color: LightSalmon;
+	height: 300px;
+	width: 30%;
+	float: left;
+}
+#glownyS
+{
+	background-color: LightSalmon;
+	height: 300px;
+	width: 40%;
+	float: left;
+}
+#stopka
+{
+	background-color: RosyBrown;
+	color: white;
+	text-align: center;
+	padding: 30px;
+	clear: both;
+}

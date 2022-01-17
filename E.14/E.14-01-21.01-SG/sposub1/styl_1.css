@@ -1,0 +1,53 @@
+body
+{
+    font-family: Tahoma;
+}
+a
+{
+    color:  DodgerBlue;
+    padding: 10px;
+}
+table
+{
+    width: 100%;
+    border: 1px line;
+    border-color: blue;
+}
+th
+{
+    background-color: #115C97;
+    color: white;
+}
+td
+{
+    border: 1px dashed blue;
+}
+tr:hover
+{
+    background-color: #115C97;
+    color: white;
+}
+#logo , #menu
+{
+    background-color: #115C97;
+    color:  DodgerBlue;
+    height: 100px;
+    width: 50%;
+    text-align: center;
+    font-size: 150%;
+    float: left;
+}
+#glowny
+{
+    background-color: #ACCEE8;
+    height: 400px;
+    padding: 30px;
+    clear: both;
+}
+#stopka1 , #stopka2 ,#stopka3 , #stopka4
+{
+    float: left;
+    background-color:  #115C97;
+    height: 200px;
+    width: 25%;
+}

@@ -43,42 +43,42 @@ Arkusze biorę z tej [strony](https://www.praktycznyegzamin.pl/inf03ee09e14/prak
 ## Egzaminy E.14
 ### 2016
 * Sierpień
-	* Weryfikacja Hasła [E.14-02-16.08](/E.14/E.14-02-16.08) [.ZIP](/ZIPY/E.14-02-16.08.zip/)
+	* Weryfikacja Hasła [E.14-02-16.08](/E.14/E.14-02-16.08) [.ZIP](/E.14/E.14-02-16.08/E.14-02-16.08.zip/)
 ### 2017
 * Styczeń
-	* Komis [E.14-01-17.01](/E.14/E.14-01-17.01/) [.ZIP](/ZIPY/E.14-01-17.01.zip/)
+	* Komis [E.14-01-17.01](/E.14/E.14-01-17.01/) [.ZIP](/E.14/E.14-01-17.01/E.14-01-17.01.zip/)
 * Czerwiec
-	* Usługi remontowe [E.14-05-17.06](/E.14/E.14-05-17.06/) [.ZIP](/ZIPY/E.14-05-17.06.zip/)
+	* Usługi remontowe [E.14-05-17.06](/E.14/E.14-05-17.06/) [.ZIP](/E.14/E.14-05-17.06/E.14-05-17.06.zip/)
 ### 2018
 * Styczeń
-	*  Portal ogłoszeniowy [E.14-01-18.01](/E.14/E.14-01-18.01/) [.ZIP](/ZIPY/E.14-01-18.01.zip/)
-	*  Ogłoszenia drobne [E.14-02-18.01](/E.14/E.14-02-18.01/)  [.ZIP](/ZIPY/E.14-02-18.01.zip/)
-	*  Portal Ogłoszeniowy [E.14-05-18.01](/E.14/E.14-05-18.01/)  [.ZIP](/ZIPY/E.14-05-18.01.zip/)
+	*  Portal ogłoszeniowy [E.14-01-18.01](/E.14/E.14-01-18.01/) [.ZIP](/E.14/E.14-01-18.01/E.14-01-18.01.zip/)
+	*  Ogłoszenia drobne [E.14-02-18.01](/E.14/E.14-02-18.01/)  [.ZIP](/E.14/E.14-02-18.01/E.14-02-18.01.zip/)
+	*  Portal Ogłoszeniowy [E.14-05-18.01](/E.14/E.14-05-18.01/)  [.ZIP](/E.14/E.14-05-18.01/E.14-05-18.01.zip/)
 * Czerwiec 
-	* Restauracja Wszystkie Smaki [E.14-01-18.06](/E.14/E.14-01-18.06/)  [.ZIP](/ZIPY/E.14-01-18.06.zip/)
-	* Restauracja Kulinaria [E.14-04-18.06](/E.14/E.14-04-18.06/)  [.ZIP](/ZIPY/E.14-04-18.06.zip/)
-	* Wesele [E.14-05-18.06](/E.14/E.14-05-18.06/)  [.ZIP](/ZIPY/E.14-05-18.06.zip/)
-	* Pizzeria [E.14-06-18.06](/E.14/E.14-06-18.06/)  [.ZIP](/ZIPY/E.14-06-18.06.zip/)
+	* Restauracja Wszystkie Smaki [E.14-01-18.06](/E.14/E.14-01-18.06/)  [.ZIP](/E.14/E.14-01-18.06/E.14-01-18.06.zip/)
+	* Restauracja Kulinaria [E.14-04-18.06](/E.14/E.14-04-18.06/)  [.ZIP](/E.14/E.14-04-18.06/E.14-04-18.06.zip/)
+	* Wesele [E.14-05-18.06](/E.14/E.14-05-18.06/)  [.ZIP](/E.14/E.14-05-18.06/E.14-05-18.06.zip/)
+	* Pizzeria [E.14-06-18.06](/E.14/E.14-06-18.06/)  [.ZIP](/E.14/E.14-06-18.06/E.14-06-18.06.zip/)
 ### 2019
 * Styczeń
-	* Filmoteka [E.14-01-19.01](/E.14/E.14-01-19.01/)  [.ZIP](/ZIPY/E.14-01-19.01.zip/)
-	* Formatowanie Dok [E.14-02-19.01](/E.14/E.14-02-19.01/)  [.ZIP](/ZIPY/E.14-02-19.01.zip/)
-	* Baza Filmów [E.14-03-19.01](/E.14/E.14-03-19.01/)  [.ZIP](/ZIPY/E.14-03-19.01.zip/)
-	* Hurtownia Kawy [E.14-04-19.01](/E.14/E.14-04-19.01/)  [.ZIP](/ZIPY/E.14-04-19.01.zip/)
-	* Grzybobranie [E.14-05-19.01](/E.14/E.14-05-19.01/)  [.ZIP](/ZIPY/E.14-05-19.01.zip/)
-	* Bióro Podróży [E.14-06-19.01](/E.14/E.14-06-19.01/)  [.ZIP](/ZIPY/E.14-06-19.01.zip/)
-	* Hurtownia [E.14-07-19.01](/E.14/E.14-07-19.01/)  [.ZIP](/ZIPY/E.14-07-19.01.zip/)
-	* Hurtownia komputerowa [E.14-08-19.01](/E.14/E.14-08-19.01/)  [.ZIP](/ZIPY/E.14-08-19.01.zip/)
-	* Atlas Zwierząt [E.14-09-19.01](/E.14/E.14-09-19.01/)  [.ZIP](/ZIPY/E.14-09-19.01.zip/)
-	* Odżywianie zwierząt [E.14-10-19.01](/E.14/E.14-10-19.01/)  [.ZIP](/ZIPY/E.14-10-19.01.zip/)
-	* Zdjęcia Zwierząt [E.14-11-19.01](/E.14/E.14-11-19.01/)  [.ZIP](/ZIPY/E.14-11-19.01.zip/)
+	* Filmoteka [E.14-01-19.01](/E.14/E.14-01-19.01/)  [.ZIP](/E.14/E.14-01-19.01/E.14-01-19.01.zip/)
+	* Formatowanie Dok [E.14-02-19.01](/E.14/E.14-02-19.01/)  [.ZIP](/E.14/E.14-02-19.01/E.14-02-19.01.zip/)
+	* Baza Filmów [E.14-03-19.01](/E.14/E.14-03-19.01/)  [.ZIP](/E.14/E.14-03-19.01/E.14-03-19.01.zip/)
+	* Hurtownia Kawy [E.14-04-19.01](/E.14/E.14-04-19.01/)  [.ZIP](/E.14/E.14-04-19.01/E.14-04-19.01.zip/)
+	* Grzybobranie [E.14-05-19.01](/E.14/E.14-05-19.01/)  [.ZIP](/E.14/E.14-05-19.01/E.14-05-19.01.zip/)
+	* Bióro Podróży [E.14-06-19.01](/E.14/E.14-06-19.01/)  [.ZIP](/E.14/E.14-06-19.01/E.14-06-19.01.zip/)
+	* Hurtownia [E.14-07-19.01](/E.14/E.14-07-19.01/)  [.ZIP]/E.14(/E.14-07-19.01/E.14-07-19.01.zip/)
+	* Hurtownia komputerowa [E.14-08-19.01](/E.14/E.14-08-19.01/)  [.ZIP](/E.14/E.14-08-19.01/E.14-08-19.01.zip/)
+	* Atlas Zwierząt [E.14-09-19.01](/E.14/E.14-09-19.01/)  [.ZIP](/E.14/E.14-09-19.01/E.14-09-19.01.zip/)
+	* Odżywianie zwierząt [E.14-10-19.01](/E.14/E.14-10-19.01/)  [.ZIP]/E.14(/E.14-10-19.01/E.14-10-19.01.zip/)
+	* Zdjęcia Zwierząt [E.14-11-19.01](/E.14/E.14-11-19.01/)  [.ZIP](/E.14/E.14-11-19.01/E.14-11-19.01.zip/)
 * Czerwiec
-	* Sklep Papierniczy [E.14-01-19.06](/E.14/E.14-01-19.06/)  [.ZIP](/ZIPY/E.14-01-19.06.zip/)
-	* Hurtownia papiernicza [E.14-02-19.06](/E.14/E.14-02-19.06/)  [.ZIP](/ZIPY/E.14-02-19.06.zip/)
-	* Biblioteka miejska [E.14-03-19.06](/E.14/E.14-03-19.06/)  [.ZIP](/ZIPY/E.14-03-19.06.zip/)
-	* Księgarnia [E.14-04-19.06](/E.14/E.14-04-19.06/)  [.ZIP](/ZIPY/E.14-04-19.06.zip/)
+	* Sklep Papierniczy [E.14-01-19.06](/E.14/E.14-01-19.06/)  [.ZIP](/E.14/E.14-01-19.06/E.14-01-19.06.zip/)
+	* Hurtownia papiernicza [E.14-02-19.06](/E.14/E.14-02-19.06/)  [.ZIP](/E.14/E.14-02-19.06/E.14-02-19.06.zip/)
+	* Biblioteka miejska [E.14-03-19.06](/E.14/E.14-03-19.06/)  [.ZIP](/E.14/E.14-03-19.06/E.14-03-19.06.zip/)
+	* Księgarnia [E.14-04-19.06](/E.14/E.14-04-19.06/)  [.ZIP](/E.14/E.14-04-19.06/E.14-04-19.06.zip/)
 	<!-- * [E.14-05-19.06](/E.14/E.14-05-19.06/) -->
-	* Pogotowie Komputerowe [E.14-06-19.06](/E.14/E.14-06-19.06/)  [.ZIP](/ZIPY/E.14-06-19.06.zip/)
+	* Pogotowie Komputerowe [E.14-06-19.06](/E.14/E.14-06-19.06/)  [.ZIP](/E.14/E.14-06-19.06/E.14-06-19.06.zip/)
 ### 2020
 * Styczeń
 	* Sklep komputerowy [E.14-01-20.01](/E.14/E.14-01-20.01-SG/)  [.ZIP](/ZIPY/E.14-01-20.01-SG.zip/)

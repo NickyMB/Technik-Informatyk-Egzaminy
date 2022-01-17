@@ -1,0 +1,45 @@
+a
+{
+	color: green;
+}
+p
+{
+	font-size: 130%;
+}
+.baner
+{
+	background-image: url(menu.jpg);
+	color: blue;
+	height: 200px;
+	clear: both;
+}
+.lewy
+{
+	background-color: rgb(255, 218, 65);
+	text-align: center;
+	width: 40%;
+	height: 400px;
+	float: left;
+}
+.center
+{
+	background-color: rgb(255, 226, 100);
+	text-align: center;
+	width: 30%;
+	height: 400px;
+	float: left;
+}
+.prawy
+{
+	background-color: rgb(255, 233, 143);
+	text-align: center;
+	width: 30%;
+	height: 400px;
+	float: left;
+}
+.stopka
+{
+	background-color: rgb(255, 218, 65);
+	color: blue;
+	clear: both;
+}

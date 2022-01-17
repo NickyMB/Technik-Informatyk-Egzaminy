@@ -1,4 +1,0 @@
-Zapytanie 1: SELECT `nazwa`, `miasto` FROM `lokale`
-Zapytanie 2: SELECT `id`, `nazwa`, `cena` FROM `dania` WHERE `typ` = 3
-Zapytanie 3: SELECT MIN(`cena`) FROM `dania` WHERE `typ`=2
-Zapytanie 4: UPDATE `lokale` SET `numer` = '23' WHERE `lokale`.`id` = 1;

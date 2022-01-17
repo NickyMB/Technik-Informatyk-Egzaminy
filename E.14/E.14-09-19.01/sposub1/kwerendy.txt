@@ -1,0 +1,4 @@
+Zapytanie 1: SELECT gatunek, wystepowanie FROM zwierzeta WHERE Gromady_id = 1;
+Zapytanie 2: SELECT zwierzeta.id, zwierzeta.gatunek, gromady.nazwa FROM zwierzeta INNER JOIN gromady WHERE zwierzeta.Gromady_id = gromady.id;
+Zapytanie 3: SELECT COUNT(*) FROM  zwierzeta WHERE Gromady_id = 1;
+Zapytanie 4: CREATE USER KatarzynaNowak IDENTIFIED BY "K4tNow";

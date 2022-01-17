@@ -1,4 +1,0 @@
-SELECT nazwa , opis , cena from podzespoly WHERE dostepnosc = 1 
-SELECT nazwa , opis , cena from podzespoly WHERE dostepnosc = 1 && typy_id = 5
-select podzespoly.nazwa , typy.kategoria from podzespoly JOIN typy on podzespoly.typy_id = podzespoly.id
-UPDATE typy SET kategoria="HDD i SSD" WHERE kategoria = "HDD"
