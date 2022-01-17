@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zespoły ratownicze</title>
+    <link rel="stylesheet" href="styl3.css">
+</head>
+<body>
+    <div id="banerl">
+        <h2>Dodanie zespołu ratowniczego</h2>
+    </div>
+    <div id="baners">
+        <p>Kontakt:<br> 022 222 11 333</p>
+    </div>
+    <div id="banerp">
+        <img src="obraz.jpg" alt="Ratownicy">
+    </div>
+    <div id="glowny">
+        <h3>Dodaj nowy zespół</h3>
+        <form method="POST" action="dodanie.php">
+            <label for="nrkaretki">Numer karetki:</label><br><input type="number" name="nrkaretki"><br>
+            <label for="ratownik1">Imię i nazwisko pierwszego ratownika</label><br><input type="text" name="ratownik1"><br>
+            <label for="ratownik2">Imię i nazwisko drugiego ratownika</label><br><input type="text" name="ratownik2"><br>
+            <label for="ratownik3">Imię i nazwisko trzeciego ratownika</label><br><input type="text" name="ratownik3"><br>
+            <button type="reset">CZYŚĆ</button>
+            <button type="submit">DODAJ</button>
+        </form>
+    </div>
+    <div id="stopkal">
+        <a href="kwerendy.txt">Zobacz kwerendy</a>
+    </div>
+    <div id="stopkas">
+        <h5>Przypominamy numery alarmowe</h5>
+        <ol>
+            <li>112</li>
+            <li>999</li>
+        </ol>
+    </div>
+    <div id="stopkap">
+        <p>Autor<br>ja</p>
+    </div>
+</body>
+</html>

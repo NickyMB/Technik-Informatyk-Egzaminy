@@ -39,7 +39,8 @@ Arkusze biorę z tej [strony](https://www.praktycznyegzamin.pl/inf03ee09e14/prak
 ### 2022
 * Styczeń
 	* Karta wędkarska [EE.09-01-22.01-SG](/EE.09/EE.09-01-22.01-SG/) [.ZIP](/EE.09/EE.09-01-22.01-SG/EE.09-01-22.01-SG.zip/)
-	* Karta wędkarska [EE.09-01-22.02-SG](/EE.09/EE.09-01-22.02-SG/) [.ZIP](/EE.09/EE.09-01-22.02-SG/EE.09-01-22.02-SG.zip/)
+	* prognoza pogody [EE.09-01-22.02-SG](/EE.09/EE.09-01-22.02-SG/) [.ZIP](/EE.09/EE.09-01-22.02-SG/EE.09-01-22.02-SG.zip/)
+	* pogotowie [EE.09-01-22.03-SG](/EE.09/EE.09-01-22.03-SG/) [.ZIP](/EE.09/EE.09-01-22.03-SG/EE.09-01-22.03-SG.zip/)
 ## Egzaminy E.14
 ### 2016
 * Sierpień

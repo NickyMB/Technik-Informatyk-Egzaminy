@@ -1,0 +1,45 @@
+body
+{
+    font-family:Arial;
+}
+#banerl, #baners, #banerp, #stopkal, #stopkas, #stopkap
+{
+    background-color:SaddleBrown;
+    color:white;
+    height:100px;
+    float:left;
+}
+#banerl, #stopkal
+{
+    width:55%;
+    font-size:120%;
+}
+#baners, #stopkas
+{
+    width:25%;
+}
+#banerp, #stopkap
+{
+    width:20%;
+    text-align:right;
+}
+#main
+{
+    background-color:Snow;
+    padding:70px;
+    clear:both;
+}
+a
+{
+    border-width:2px;
+    border-style:dotted;
+    border-color:SaddleBrown;
+    background-color:Snow;
+    color:SaddleBrown;
+    padding:20px;
+    line-height:100px;
+}
+ol
+{
+    list-style-type: lower-latin;
+}
