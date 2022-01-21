@@ -41,6 +41,10 @@ Arkusze biorę z tej [strony](https://www.praktycznyegzamin.pl/inf03ee09e14/prak
 	* Karta wędkarska [EE.09-01-22.01-SG](/EE.09/EE.09-01-22.01-SG/) [.ZIP](/EE.09/EE.09-01-22.01-SG/EE.09-01-22.01-SG.zip/)
 	* prognoza pogody [EE.09-01-22.02-SG](/EE.09/EE.09-01-22.02-SG/) [.ZIP](/EE.09/EE.09-01-22.02-SG/EE.09-01-22.02-SG.zip/)
 	* pogotowie [EE.09-01-22.03-SG](/EE.09/EE.09-01-22.03-SG/) [.ZIP](/EE.09/EE.09-01-22.03-SG/EE.09-01-22.03-SG.zip/)
+	* Forum wielbibieli psów [EE.09-01-22.04-SG](/EE.09/EE.09-01-22.04-SG/) [.ZIP](/EE.09/EE.09-01-22.04-SG/EE.09-01-22.04-SG.zip/)
+	* Portal społecznościowy [EE.09-01-22.05-SG](/EE.09/EE.09-01-22.05-SG/) [.ZIP](/EE.09/EE.09-01-22.05-SG/EE.09-01-22.05-SG.zip/)
+	* Konfigurator stylu [EE.09-01-22.06-SG](/EE.09/EE.09-01-22.06-SG/) [.ZIP](/EE.09/EE.09-01-22.06-SG/EE.09-01-22.06-SG.zip/)
+	* Galeria miejsc ciekawych [EE.09-01-22.07-SG](/EE.09/EE.09-01-22.07-SG/) [.ZIP](/EE.09/EE.09-01-22.07-SG/EE.09-01-22.07-SG.zip/)
 ## Egzaminy E.14
 ### 2016
 * Sierpień

@@ -1,0 +1,4 @@
+1. SELECT `kierunek`, `czas` FROM `przyloty` WHERE `status_lotu`="";
+2. SELECT `kierunek`, `dzien` FROM `odloty` JOIN `samoloty` ON odloty.samoloty_id=samoloty.id WHERE `typ`="Boening 787";
+3. SELECT `nr_rejsu`, `kierunek` FROM `przyloty` WHERE `nr_rejsu` LIKE "%LX%";
+4. UPDATE `samoloty` SET 'linie'="SWISS2" WHERE `linie`="SWISS";

@@ -14,8 +14,9 @@ a
 	color: white;
 	text-align: center;
 	height: 80px;
+	clear: both;
 }
-#levy
+#lewy
 {
 	float: left;
 	background-color: #9692B1;

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styl7.css">
+	<title>Galeria</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var licznik=0;
+		function podmien()
+		{
+			licznik++;
+			if (licznik%2!=0)
+			{
+				document.getElementById("ikona").src="icon-on.png";	
+				console.log(licznik);
+			}
+			else
+			{
+				document.getElementById("ikona").src="icon-off.png";
+				console.log(licznik);
+			}
+		}
+		function zmienZdjecie(zdjecie)
+		{
+			if(zdjecie=="lanzarotte")
+			{
+				document.getElementById("zdjecieglowne").src="lanzarotte.jpg";
+			}
+			else if(zdjecie=="pekin")
+			{
+				document.getElementById("zdjecieglowne").src="pekin.jpg";
+			}
+			else if(zdjecie=="serengeti")
+			{
+				document.getElementById("zdjecieglowne").src="serengeti.jpg";
+			}
+			else if(zdjecie=="tajlandia")
+			{
+				document.getElementById("zdjecieglowne").src="tajlandia.jpg";
+			}
+			else if(zdjecie=="wenecja")
+			{
+				document.getElementById("zdjecieglowne").src="wenecja.jpg";
+			}
+		}
+	</script>
+	<div class="baner">
+		<h2>Galeria miejsc ciekawych</h2>
+	</div>
+	<div class="glowny">
+		<img id="zdjecieglowne" class="zdjglowne" src="lanzarotte.jpg" alt="galeria">	
+	</div>
+	<div class="lewy">
+		<h3> Przeglądaj zdjęcia</h3>
+		<img onclick="zmienZdjecie('lanzarotte')" id="lanzarotte" class="zdjlewy" src="lanzarotte.jpg" alt="lanzarotte">
+		<img onclick="zmienZdjecie('pekin')" id="pekin" class="zdjlewy" src="pekin.jpg" alt="pekin">
+		<img onclick="zmienZdjecie('serengeti')"  id="serengeti" class="zdjlewy" src="serengeti.jpg" alt="serengeti">
+		<img onclick="zmienZdjecie('wenecja')" id="wenecja" class="zdjlewy" src="wenecja.jpg" alt="wenecja">
+		<img onclick="zmienZdjecie('tajlandia')" id="tajlandia" class="zdjlewy" src="tajlandia.jpg" alt="tajlandia">
+	</div>
+	<div class="prawy">
+		<h3>Obrazy w naszej galerii</h3>
+		<table>
+			<tr>
+				<td>Europa</td>
+				<td>Azja</td>
+				<td>Afryka</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>2</td>
+				<td>1</td>
+			</tr>
+		</table>
+		<p>
+			Polub nas
+			<img src="icon-off.png" alt="ikona" id="ikona" onclick="podmien()">
+		</p><br>
+		<a href="https://pixabay.com" target="_blank">Odkryj więcej zdjęć</a>
+	</div>
+	<div class="stopka">
+		Autor: 0123456789
+	</div>
+<body>
+</html>
