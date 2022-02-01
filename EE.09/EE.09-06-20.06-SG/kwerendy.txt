@@ -1,0 +1,11 @@
+kw1:
+    SELECT `id`, `cel`, `cena` FROM `wycieczki` WHERE `dostepna` = 0;
+
+kw2:
+    SELECT `nazwaPliku`, `podpis` FROM `zdjecia` ORDER BY `podpis` DESC;
+
+kw3:
+    SELECT `zdjecia`.`podpis`, `wycieczki`.`cena`, `wycieczki`.`cel` FROM `zdjecia`, `wycieczki` WHERE `zdjecia`.`id`=`wycieczki`.`zdjecia_id` && `wycieczki`.`cena`<1200;
+
+kw4:
+    ALTER TABLE `wycieczki` DROP `dataWyjazdu`;
