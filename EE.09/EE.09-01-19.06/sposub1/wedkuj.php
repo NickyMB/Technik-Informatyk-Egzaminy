@@ -7,6 +7,7 @@
 </head>
 <body>
 	<div id="baner">
+		
 		<h1>Portal dla wędkarzy</h1>
 	</div>
 	<div id="lewy">

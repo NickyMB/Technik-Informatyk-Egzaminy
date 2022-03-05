@@ -33,66 +33,6 @@
         <h3>Wskaźnik jakości hasła</h3>
         <p>Twórca strony: 1324657890</p>
     </div>
-    <script type="text/javascript">
-        var szyfr
-        var wynik
-        var haslo
-        var sprawdz
-        function sprawdzenie()
-        {
-            haslo = document.getElementById('haslo')
-            wynik = document.getElementById('wynik')
-            szyfr = haslo.value
-            wynik.innerHTML = " "
-               if(szyfr.length == 0)
-               {
-                    wynik.innerHTML = '<font color="red"> HASŁO JEST PUSTE </font>'
-               }
-               else if(szyfr.length >= 4 && szyfr.length <= 6)
-               {
-                    sprawdzacz(szyfr)
-                    if(sprawdz==1)
-                    {
-                        wynik.innerHTML = '<font color="blue"> HASŁO JEST ŚREDNIE </font>'
-                    }
-                    else
-                    {
-                        wynik.innerHTML = '<font color="yellow"> HASŁO JEST SŁABE </font>'
-                    }
-               }
-               else if(szyfr.length >= 7)
-               {
-                    sprawdzacz(szyfr)
-                    if(sprawdz==1)
-                    {
-                        wynik.innerHTML = '<font color="green"> HASŁO JEST DOBRE </font>'
-                    }
-                    else
-                    {
-                        wynik.innerHTML = '<font color="blue"> HASŁO JEST ŚREDNIE </font>'
-                    }
-                }
-               else
-               {
-                    wynik.innerHTML = '<font color="yellow"> HASŁO JEST SŁABE </font>'
-               }
-        }
-            function sprawdzacz()
-            {
-                for(var i = 0; i <= szyfr.length ; i++)
-                {
-                    var a = parseFloat(szyfr.charAt(i))   
-                    if(Number(a))
-                    {
-                        sprawdz = 1 
-                        i=szyfr.length+1
-                    }
-                    else
-                    {
-                        sprawdz = 0
-                    }
-                }
-            }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
